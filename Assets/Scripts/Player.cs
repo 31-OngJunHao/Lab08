@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Obstacle")
         {
             //Gamelose
+            print("Collision Detected");
             SceneManager.LoadScene("GameLose");
         }
     }
